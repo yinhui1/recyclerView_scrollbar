@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="ScaleEnable" format="boolean" />
+    <attr name="ScaleDefHeight" format="dimension" />
+    <attr name="ScaleMaxHeight" format="dimension" />
+
+    <declare-styleable name="ZoomItemRecyclerView_Layout">
+        <attr name="ScaleEnable" />
+        <attr name="ScaleDefHeight" />
+        <attr name="ScaleMaxHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="ZoomItemRecyclerView">
+        <attr name="ScaleEnable" />
+        <attr name="ScaleDefHeight" />
+        <attr name="ScaleMaxHeight" />
+    </declare-styleable>
+
+    <!--主题颜色-->
+    <attr name="Theme_color" format="color" />
+    <!--主题颜色 70%不透明度-->
+    <attr name="Theme_color70" format="color" />
+
+    <declare-styleable name="FastScrollRecyclerView">
+        <attr name="fastScrollThumbColor" format="reference|color" />
+        <attr name="fastScrollThumbInactiveColor" format="reference|color" />
+        <attr name="fastScrollTrackColor" format="reference|color" />
+        <attr name="fastScrollPopupBgColor" format="reference|color" />
+        <attr name="fastScrollPopupTextColor" format="reference|color" />
+        <attr name="fastScrollPopupTextSize" format="reference|dimension" />
+        <attr name="fastScrollPopupBackgroundSize" format="reference|dimension" />
+        <attr name="fastScrollPopupPosition" format="enum">
+            <enum name="adjacent" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+        <attr name="fastScrollAutoHide" format="reference|boolean" />
+        <attr name="fastScrollAutoHideDelay" format="reference|integer" />
+        <attr name="fastScrollEnableThumbInactiveColor" format="reference|boolean" />
+        <attr name="fastScrollThumbEnabled" format="reference|boolean" />
+        <attr name="fastScrollThumbHeight" format="reference|dimension" />
+        <attr name="fastScrollThumbWidth" format="reference|dimension" />
+        <attr name="fastScrollThumbPadding" format="reference|dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <yiyou.yinhui.sh.cn.myapplication.fastscroll.views.FastScrollRecyclerView
+        android:id="@+id/recyclerView_search_keyword_result_list"
+        style="@style/ZoomItemRecyclerView_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:fastScrollTrackColor="#60606D"
+        app:fastScrollThumbInactiveColor="#008EE3"
+        />
+</RelativeLayout>
