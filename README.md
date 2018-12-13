@@ -1,1 +1,2 @@
 # recyclerView_scrollbar
+里面自定义的recyclerView_fastScroll是在https://github.com/timusus/RecyclerView-FastScroll的基础上进行修改的
